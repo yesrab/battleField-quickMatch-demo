@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -7,7 +8,7 @@ export default {
         Rajdhani: "'Rajdhani',serif",
       },
       backgroundImage: {
-        menu: "url('./src/client/assets/menu.png')",
+        menu: `url('/assets/menu.png')`,
       },
       colors: {
         dim: "rgba(0,0,0,0.5)",
