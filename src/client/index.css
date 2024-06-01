@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  .menuBg {
+    background-image: url("./assets/menu.png");
+  }
   .scrollbar::-webkit-scrollbar {
     width: 2px;
     height: 2px;

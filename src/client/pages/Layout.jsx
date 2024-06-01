@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar";
 
 const Layout = () => {
   return (
-    <div className='bg-menu min-h-dvh bg-cover bg-dim bg-blend-multiply text-white font-Rajdhani flex'>
+    <div className='menuBg min-h-dvh bg-cover bg-dim bg-blend-multiply text-white font-Rajdhani flex'>
       <GameSwitcher />
       <Outlet />
       <Sidebar />
